@@ -443,7 +443,6 @@ export default function App() {
 
             <ul className="space-y-8">
               {[
-                { icon: Battery, title: "1-Year Battery Life", desc: "Optimized low-energy hardware means you only charge it once a year." },
                 { icon: Shield, title: "IP68 Waterproof", desc: "Pools, mud, or rain—SAFENTRA is built to survive the playground." },
                 { icon: Wifi, title: "Triple-Network Mesh", desc: "Utilizing GPS, Cellular, and Bluetooth mesh for maximum redundancy." }
               ].map((item, i) => (
